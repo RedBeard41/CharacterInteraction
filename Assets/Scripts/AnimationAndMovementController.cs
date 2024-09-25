@@ -223,7 +223,7 @@ public class AnimationAndMovementController : MonoBehaviour
         bool isWalking = _animator.GetBool(_isWalkingHash);
         bool isRunning = _animator.GetBool(_isRunningHash);
         bool isDancing = _animator.GetBool(_isDancingHash);
-        bool _isJumping = _animator.GetBool("_isJumping");
+        bool isJumping = _animator.GetBool("isJumping");
 
         if (_isMovementPressed)
         {
